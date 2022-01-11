@@ -27,3 +27,14 @@ int BinarySearch(int target, const int *list, int size){
         }
     }
 }
+int LinearSearch(int target, const int *list, int size){
+
+    int i;
+
+    for(i=0;i<size;i++){
+        if(list[i] == target){
+            return target;
+        }
+    }
+    return -1;
+}
