@@ -1,2 +1,4 @@
 # Algorithms
-Implementations of a wide range of algorithms
+* Binary search
+* Linear search
+* GCD
